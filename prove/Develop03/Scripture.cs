@@ -9,17 +9,8 @@ namespace Develop03
         private string _scripture;
 
         public Scriptures(){
-            _words = new List<string> {"For", "God","So","loved","the","world","that","he","gave","his","only","begotten","Son","that","whosoever"};
-            _words.Add("beleiveth");
-            _words.Add("in");
-            _words.Add("him");
-            _words.Add("should");
-            _words.Add("not");
-            _words.Add("perish");
-            _words.Add("but");
-            _words.Add("have");
-            _words.Add("everlasting");
-            _words.Add("life");
+            _words = new List<string> {"In", "the", "premortal", "realm", "spirit", "sons", "and", "daughters", "knew", "and", "worshipped", "God", "as", "their", "Eternal", "Father", "and", "accepted", "His", "plan", "by", "which", "His", "children", "could", "obtain", "a", "physical", "body", "and", "gain", "earthly", "experience", "to", "progress", "toward", "perfection", "and", "ultimately", "realize", "their", "divine", "destiny", "as", "heirs", "of", "eternal", "life", "The", "divine", "plan", "of", "happiness", "enables", "family", "relationships", "to", "be", "perpetuated", "beyond", "the", "grave", "Sacred", "ordinances", "and", "covenants", "available", "in", "holy", "temples", "make", "it", "possible", "for", "individuals", "to", "return", "to", "the", "presence", "of", "God", "and", "for", "families", "to", "be", "united", "eternally",};
+
         }
       public string GetScriptureString(){
             foreach (string word in _words){
