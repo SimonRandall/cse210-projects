@@ -9,7 +9,7 @@ namespace Develop03
         private string _scripture;
 
         public Scriptures(){
-            _words = new List<string> {"In", "the", "premortal", "realm", "spirit", "sons", "and", "daughters", "knew", "and", "worshipped", "God", "as", "their", "Eternal", "Father", "and", "accepted", "His", "plan", "by", "which", "His", "children", "could", "obtain", "a", "physical", "body", "and", "gain", "earthly", "experience", "to", "progress", "toward", "perfection", "and", "ultimately", "realize", "their", "divine", "destiny", "as", "heirs", "of", "eternal", "life", "The", "divine", "plan", "of", "happiness", "enables", "family", "relationships", "to", "be", "perpetuated", "beyond", "the", "grave", "Sacred", "ordinances", "and", "covenants", "available", "in", "holy", "temples", "make", "it", "possible", "for", "individuals", "to", "return", "to", "the", "presence", "of", "God", "and", "for", "families", "to", "be", "united", "eternally",};
+            _words = new List<string> {"For", "God", "so", "loved", "the", "world,", "that", "he", "gave", "his", "only", "begotten", "Son,", "that", "whosoever", "believeth", "in", "him", "should", "not", "perish", "but", "have", "everlasting", "life."};
 
         }
       public string GetScriptureString(){
